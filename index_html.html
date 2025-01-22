@@ -2,9 +2,233 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>tables</title>
 </head>
 <body>
+
+<!--
+
+      table tag - define table
+      thead - define table header
+      th - table head
+      tbody - define table body
+      tr - table row
+      td - table data
+      caption - add caption to the table
+
+
+      -->
+
+
+<table border="1">
+    <caption>Student Table</caption>
+    <thead>
+    <th>Id</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Mobile</th>
+    <th>Address</th>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>1001</td>
+        <td>sahan</td>
+        <td>udakara</td>
+        <td>0758206589</td>
+        <td>kalutara</td>
+    </tr>
+
+    <tr>
+        <td>1002</td>
+        <td>sithara</td>
+        <td>gimhani</td>
+        <td>0758206940</td>
+        <td>panadura</td>
+    </tr>
+    </tbody>
+
+    <tfoot>
+    <th>Id</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Mobile</th>
+    <th>Address</th>
+
+    </tfoot>
+</table>
+
+
+
+
+
+<table border="1">
+    <caption>Student Table</caption>
+    <thead>
+    <th>Id</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Mobile</th>\
+    <th>Mobile 2</th>
+    <th>Address</th>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>1001</td>
+        <td>sahan</td>
+        <td>udakara</td>
+        <td>0758206589</td>
+        <td>0780044444</td>
+        <td>kalutara</td>
+    </tr>
+
+    <tr>
+        <td>1002</td>
+        <td>sithara</td>
+        <td>gimhani</td>
+        <td colspan="2">0758206940</td>
+        <!--        <td>0758206940</td>-->
+        <td>panadura</td>
+    </tr>
+    </tbody>
+
+    <tfoot>
+    <th>Id</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Mobile</th>
+    <th>Mobile 2</th>
+    <th>Address</th>
+
+    </tfoot>
+</table>
+
+
+
+<table border="1">
+    <caption>Student Table</caption>
+    <thead>
+    <th>Id</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Mobile</th>
+    <th>Address</th>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>1001</td>
+        <td>sahan</td>
+        <td>udakara</td>
+        <td>0758206589</td>
+        <td>kalutara</td>
+    </tr>
+
+    <tr>
+        <td>1002</td>
+        <td>sithara</td>
+        <td rowspan="2">gimhani</td>
+        <td>0758206940</td>
+        <td>panadura</td>
+    </tr>
+
+    <tr>
+        <td>1003</td>
+        <td>podda</td>
+        <!--        <td>gimhani</td>-->
+        <td>0758206100</td>
+        <td>galle</td>
+    </tr>
+    </tbody>
+
+    <tfoot>
+    <th>Id</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Mobile</th>
+    <th>Address</th>
+
+    </tfoot>
+</table>
+
+
+
+
+<table border="1">
+    <thead>
+    <th>Id</th>
+    <th>Name</th>
+    <th colspan="2">Emails</th>
+    <th>Parent's Name</th>
+    </thead>
+
+    <tbody>
+
+    <tr>
+        <td>01</td>
+        <td>Kavindu</td>
+        <td>Kavindu1@gmail.com</td>
+        <td>Kavindu2@gmail.com</td>
+        <td>Mr.Rathnayake</td>
+
+    </tr>
+
+
+    <tr>
+        <td>02</td>
+        <td>Janith</td>
+        <td>Janith1@gmail.com</td>
+        <td>Janith2@gmail.com</td>
+        <td>Mr.Sarath</td>
+    </tr>
+
+    <tr>
+        <td>03</td>
+        <td>Sheron</td>
+        <td colspan="2">Sheron@gmail.com</td>
+        <!--        <td>Kavindu2@gmail.com</td>-->
+        <td rowspan="2" >Mr.Kamal</td>
+    </tr>
+
+    <tr>
+        <td>04</td>
+        <td>brian</td>
+        <td>brian1@gmail.com</td>
+        <td>brian2@gmail.com</td>
+    </tr>
+
+    <tr>
+        <td>05</td>
+        <td>Wishwa</td>
+        <td>Wishwa1@gmail.com</td>
+        <td>Wishwa2@gmail.com</td>
+        <td>Mr.Nihal</td>
+    </tr>
+
+    <tr>
+        <td>06</td>
+        <td>Saroja</td>
+        <td colspan="2" rowspan="2">Saroja@gmail.com</td>
+        <td rowspan="2">Mr.Nelson</td>
+    </tr>
+
+    <tr>
+        <td>07</td>
+        <td>Sarojani</td>
+    </tr>
+
+
+    </tbody>
+
+
+
+
+</table>
+
+
+
+
 
 </body>
 </html>
